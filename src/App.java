@@ -41,9 +41,10 @@ public class App {
 
          System.out.println("Received message: " + messageReceived.getText());
       } finally {
-         if (connection != null) {
-            connection.close();
-         }
+          if (connection != null) {
+              connection.close();
+          }
+       
       }
     }
 }
