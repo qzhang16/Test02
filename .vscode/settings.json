@@ -2,6 +2,7 @@
     "java.project.sourcePaths": ["src"],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
-        "lib/**/*.jar"
+        "lib/**/*.jar",
+        "/home/qzhang16/apache-artemis-2.19.1/lib/client/artemis-jms-client-all-2.19.1.jar"
     ]
 }
