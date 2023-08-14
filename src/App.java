@@ -62,7 +62,7 @@ public class App {
         // env.put(Context.PROVIDER_URL, "ldaps://172.22.69.237:1636");
         env.put(Context.SECURITY_PRINCIPAL, "admin");
         env.put(Context.SECURITY_CREDENTIALS, "admin");
-        
+              
         // env.put(Context.SECURITY_PROTOCOL, "ssl");
         try {
             InitialContext context = new InitialContext(env);
